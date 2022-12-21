@@ -1,0 +1,251 @@
+id: table2
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
+    - normalizedData: null
+    - rowHeight: compact
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered:
+          - financing_deal_id:
+              ordered: []
+    - columnWidths: []
+    - showSummaryFooter: false
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered:
+          - financing_type: Financing Type
+          - attachment: Attachment
+          - financing_deal_id: Deal ID
+          - cap_type: Cap Type
+          - equity_contribution: Equity Contribution
+          - deal_volume: Deal Volume
+          - status: Status
+          - interest_rate: Interest Rate
+          - closing_date: Closing Date
+          - financing_partner_id: Partner ID
+          - volume: Volume
+          - deal_name: Deal Name
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - financing_type: ''
+          - holding_period_prolongation_possible: ''
+          - attachment: ''
+          - invoice_period_days: ''
+          - call_off_period_days: ''
+          - unit: ''
+          - holding_period_minimum_months: ''
+          - definition_1_month: ''
+          - invoice_trigger: ''
+          - financing_deal_id: ''
+          - cap_type: ''
+          - included_mileage_month: ''
+          - holding_period_prolongation_days: ''
+          - contract_id: ''
+          - additional_mileage_cost_per_km_mile_net: ''
+          - x-amzn-errortype: ''
+          - equity_contribution: ''
+          - data: ''
+          - transfer_of_risk_clause: ''
+          - possible_defleeting_compounds: ''
+          - supplier: ''
+          - order_id: ''
+          - supplier_type: ''
+          - x-cache: ''
+          - deal_volume: ''
+          - deal_type: ''
+          - via: ''
+          - content-type: ''
+          - creation_date: ''
+          - grace_period_days: ''
+          - damage_flat_amount: ''
+          - date: ''
+          - possible_infleeting_compounds: ''
+          - grace_period_terms: ''
+          - mileage_included_comment: ''
+          - x-amz-cf-id: ''
+          - x-amzn-requestid: ''
+          - x-amz-apigw-id: ''
+          - holding_period_trigger_end: ''
+          - status: ''
+          - holding_period_maximum_months: ''
+          - interest_rate: ''
+          - holding_period_prolongation_terms: ''
+          - contract_number: ''
+          - closing_date: ''
+          - holding_period_trigger_start: ''
+          - content-length: ''
+          - financing_partner_id: ''
+          - volume: ''
+          - type: ''
+          - x-amz-cf-pop: ''
+          - transfer_of_risk_trigger: ''
+          - payment_period_days: ''
+          - holding_period_comment: ''
+          - pdi_tracking_required: ''
+          - damage_grace_period_days: ''
+          - deal_name: ''
+          - connection: ''
+          - payment_trigger: ''
+    - columnFrozenAlignments:
+        ordered:
+          - financing_deal_id: left
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered:
+          - financing_deal_id: HtmlDataCell
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered: []
+    - _columnSummaryTypes:
+        ordered:
+          - financing_deal_id: ''
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: null
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered: []
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: true
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: >-
+        {{ fleetNavigationBar1.Country == 'US' ? US_get_orders.data.data :
+        DE_get_orders.data.data }}
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered:
+          - financing_deal_id: right
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: false
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - showRefreshButton: true
+    - pageSize: '20'
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered:
+          - financing_deal_id: ''
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: false
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered:
+          - order_id: false
+          - contract_id: false
+          - deal_name: false
+          - status: false
+          - closing_date: false
+          - attachment: false
+          - volume: false
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered:
+          - financing_deal_id: <b>{{self}}
+          - deal_name: ''
+          - attachment: '{{self.file_url}}'
+    - showClearSelection: false
+    - doubleClickToEdit: true
+    - overflowType: scroll
+    - _reverseSortedDisplayedDataIndices: null
+    - showTableBorder: true
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns: []
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns:
+        - order_id
+        - contract_id
+        - status
+        - closing_date
+        - attachment
+        - volume
+        - deal_name
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer1
+    subcontainer: 52fdd
+    row: 1.9999999999999998
+    col: 6
+    height: 8.4
+    width: 6
+createdAt: 2022-10-11T17:02:53.474Z

@@ -1,0 +1,58 @@
+id: unassignedCarsTable
+type: widget
+subtype: GlobalWidget
+template:
+  ordered:
+    - heightType: auto
+    - model_name: '{{model_name.value}}'
+    - version_id: '{{version_id.value}}'
+    - engine: '{{engine.value}}'
+    - ExtPrimaryColor: '{{ExtPrimaryColor.value}}'
+    - intFeatureId: '{{intFeatureId.value}}'
+    - MSRP: '{{MSRP.value}}'
+    - Ext_Color: '{{Ext_Color.value}}'
+    - SelectionType: ''
+    - intFeature: '{{intFeature.value}}'
+    - split_config: '{{split_config.value}}'
+    - finnCars_data: '{{finnCars_data.value}}'
+    - Brand: '{{Brand.value}}'
+    - trim_name: '{{trim_name.value}}'
+    - engine_name: '{{engine_name.value}}'
+    - finnCar_Id: '{{finnCar_Id.value}}'
+    - showFetchingIndicator: boolean
+    - pageUuid: 46a8827c-58fc-11ed-9fc1-eb21de0af8c4
+    - name: Config and Car Selection - Financing Information
+    - planned_model: '{{planned_model.value}}'
+    - extFeatureId: '{{extFeatureId.value}}'
+    - ExtSecondaryColor: '{{ExtSecondaryColor.value}}'
+    - EnergyClass: '{{EnergyClass.value}}'
+    - IntPrimaryColor: '{{IntPrimaryColor.value}}'
+    - model_id: '{{model_id.value}}'
+    - Index: '{{Index.value}}'
+    - version_name: '{{version_name.value}}'
+    - brand_id: '{{brand_id.value}}'
+    - CarsSwitch: '{{CarsSwitch.value}}'
+    - model_year: '{{model_year.value}}'
+    - Label: '{{Label.value}}'
+    - variant_id: '{{variant_id.value}}'
+    - Country: '{{fleetNavigationBar1.Country}}'
+    - trigger: '{{trigger.value}}'
+    - trim_id: '{{trim_id.value}}'
+    - config_id: '{{config_id.value}}'
+    - Description: '{{Description.value}}'
+    - bodyType: '{{bodyType.value}}'
+    - planned_version: '{{planned_version.value}}'
+    - planned_trim: '{{planned_trim.value}}'
+    - RefreshTrigger: '{{GER_post_car_financings.data}}'
+    - IntSecondaryColor: '{{IntSecondaryColor.value}}'
+    - childNamespace: unassignedCarsTable
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer1
+    subcontainer: 9a514
+    row: 3.8
+    height: 5
+    width: 12
+createdAt: 2022-10-31T14:44:12.003Z

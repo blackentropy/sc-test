@@ -1,0 +1,256 @@
+id: table1
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
+    - normalizedData: null
+    - rowHeight: compact
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered: []
+    - columnWidths:
+        - object:
+            id: contract_id
+            value: 199
+        - object:
+            id: type
+            value: 145
+        - object:
+            id: transfer_of_risk_trigger
+            value: 194
+    - showSummaryFooter: false
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - papers_recipient_street: ''
+          - holding_period_prolongation_possible: ''
+          - attachment: ''
+          - invoice_period_days: ''
+          - call_off_period_days: ''
+          - unit: ''
+          - holding_period_minimum_months: ''
+          - definition_1_month: ''
+          - invoice_trigger: ''
+          - included_mileage_month: ''
+          - holding_period_prolongation_days: ''
+          - contract_id: ''
+          - additional_mileage_cost_per_km_mile_net: ''
+          - papers_recipient_city: ''
+          - papers_recipient_company_name: ''
+          - papers_recipient_postcode: ''
+          - transfer_of_risk_clause: ''
+          - name: ''
+          - possible_defleeting_compounds: ''
+          - supplier: ''
+          - supplier_type: ''
+          - deal_type: ''
+          - creation_date: ''
+          - grace_period_days: ''
+          - damage_flat_amount: ''
+          - possible_infleeting_compounds: ''
+          - grace_period_terms: ''
+          - mileage_included_comment: ''
+          - holding_period_trigger_end: ''
+          - status: ''
+          - holding_period_maximum_months: ''
+          - papers_recipient_last_name: ''
+          - holding_period_prolongation_terms: ''
+          - contract_number: ''
+          - closing_date: ''
+          - papers_recipient_country: ''
+          - holding_period_trigger_start: ''
+          - financing_partner_id: ''
+          - volume: ''
+          - type: ''
+          - transfer_of_risk_trigger: ''
+          - payment_period_days: ''
+          - holding_period_comment: ''
+          - pdi_tracking_required: ''
+          - papers_recipient_full_name: ''
+          - damage_grace_period_days: ''
+          - payment_trigger: ''
+          - papers_recipient_gender: ''
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered: []
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - holding_period_prolongation_possible: true
+          - attachment: false
+          - invoice_period_days: true
+          - call_off_period_days: true
+          - unit: true
+          - holding_period_minimum_months: true
+          - invoice_trigger: true
+          - included_mileage_month: true
+          - holding_period_prolongation_days: true
+          - additional_mileage_cost_per_km_mile_net: true
+          - transfer_of_risk_clause: true
+          - possible_defleeting_compounds: true
+          - deal_type: true
+          - creation_date: true
+          - grace_period_days: true
+          - damage_flat_amount: true
+          - possible_infleeting_compounds: true
+          - grace_period_terms: true
+          - mileage_included_comment: true
+          - holding_period_trigger_end: true
+          - holding_period_maximum_months: true
+          - holding_period_prolongation_terms: true
+          - contract_number: true
+          - closing_date: true
+          - holding_period_trigger_start: true
+          - type: true
+          - payment_period_days: true
+          - holding_period_comment: true
+          - pdi_tracking_required: true
+          - damage_grace_period_days: true
+          - payment_trigger: true
+    - _columnSummaryTypes:
+        ordered: []
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: null
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered: []
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: true
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: >-
+        {{fleetNavigationBar1.Country == 'GER' ? DE_get_all_contracts.data.data
+        : US_get_all_contracts.data.data}}
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered: []
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: false
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - showRefreshButton: true
+    - pageSize: '20'
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered: []
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: false
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - events:
+        - ordered:
+            - event: saveChanges
+            - type: datasource
+            - method: trigger
+            - pluginId: DE_patch_contract
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered:
+          - type: false
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - doubleClickToEdit: true
+    - overflowType: scroll
+    - _reverseSortedDisplayedDataIndices: null
+    - showTableBorder: true
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns: []
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns: []
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer1
+    subcontainer: 5d269
+    row: 1.2
+    col: 6
+    height: 9.399999999999999
+    width: 6
+createdAt: 2022-10-11T16:09:18.021Z

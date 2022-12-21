@@ -1,0 +1,53 @@
+id: formButton2
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: ''
+    - hidden: '{{unassignedCarsTable.finnCars_data.length==0}}'
+    - text: Assign Cars
+    - showInEditor: false
+    - tooltipText: ''
+    - submit: false
+    - iconBefore: ''
+    - events:
+        - ordered:
+            - event: click
+            - type: datasource
+            - method: trigger
+            - pluginId: GER_post_car_financings
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+            - enabled: '{{fleetNavigationBar1.Country == ''GER''}}'
+        - ordered:
+            - method: trigger
+            - enabled: '{{fleetNavigationBar1.Country == ''US''}}'
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: US_post_car_financings
+            - waitType: debounce
+            - event: click
+            - type: datasource
+            - waitMs: '0'
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer1
+    subcontainer: 9a514
+    row: 28
+    col: 9
+    height: 1
+    width: 2
+createdAt: 2022-10-28T09:19:55.099Z

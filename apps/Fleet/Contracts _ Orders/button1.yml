@@ -1,0 +1,84 @@
+id: button1
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: null
+    - hidden: false
+    - text: Submit
+    - showInEditor: false
+    - tooltipText: ''
+    - styleVariant: solid
+    - submit: false
+    - iconBefore: ''
+    - events:
+        - ordered:
+            - method: trigger
+            - enabled: >-
+                {{segmentedControl1.selectedIndex==0  &&
+                fleetNavigationBar1.Country == 'GER'}}
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: DE_post_contract
+            - waitType: debounce
+            - event: click
+            - type: datasource
+            - waitMs: '0'
+        - ordered:
+            - method: trigger
+            - enabled: >-
+                {{segmentedControl2.selectedIndex==1 &&
+                fleetNavigationBar1.Country == 'GER'}}
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: DE_patch_contract
+            - waitType: debounce
+            - event: click
+            - type: datasource
+            - waitMs: '0'
+        - ordered:
+            - method: trigger
+            - enabled: >-
+                {{segmentedControl1.selectedIndex==0  &&
+                fleetNavigationBar1.Country == 'US'}}
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: US_post_contract
+            - waitType: debounce
+            - event: click
+            - type: datasource
+            - waitMs: '0'
+        - ordered:
+            - method: trigger
+            - enabled: >-
+                {{segmentedControl2.selectedIndex==1 &&
+                fleetNavigationBar1.Country == 'US'}}
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: US_patch_contract
+            - waitType: debounce
+            - event: click
+            - type: datasource
+            - waitMs: '0'
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedContainer1
+    subcontainer: 5d269
+    row: 38.80000000000002
+    col: 3
+    height: 1
+    width: 2
+createdAt: 2022-10-11T17:02:15.077Z

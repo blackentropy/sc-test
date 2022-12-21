@@ -1,0 +1,14 @@
+version: 43.0.9
+pageUuid: c13ae74e-759b-11ed-af2f-638591601dbb
+appTemplate:
+  folders:
+    - DE_contracts
+    - US_contracts
+    - US_orders
+    - DE_orders
+    - GER_cars
+    - US_cars
+  queryStatusVisibility: false
+  rootScreen: null
+  version: 2.103.4
+  markdownLinkBehavior: auto
