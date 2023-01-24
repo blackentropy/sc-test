@@ -1,7 +1,7 @@
 databaseName: null
 databasePassword: null
 databaseUsername: null
-dynamicallyQueryable: false
+dynamicallyQueryable: 1
 editPrivilege: null
 environment: production
 host: null
