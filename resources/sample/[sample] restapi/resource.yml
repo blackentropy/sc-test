@@ -3,7 +3,7 @@ databasePassword: null
 databaseUsername: null
 dynamicallyQueryable: 1
 editPrivilege: null
-environment: production
+environment: 12345'
 host: null
 options:
   baseURL: https://restcountries.com/v3.1
