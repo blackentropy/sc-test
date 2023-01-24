@@ -15,5 +15,5 @@ options:
 port: null
 ssl: null
 type: restapi
-uuid: 509115aa-35ba-4369-b44a-c9a54deac8d6
-version: 1.0.0
+uuid: hi world
+version: asdf
