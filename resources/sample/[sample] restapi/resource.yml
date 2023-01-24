@@ -14,6 +14,6 @@ options:
       - Bearer
 port: null
 ssl: null
-type: restapi
+type: what
 uuid: hi world
 version: asdf
