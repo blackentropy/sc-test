@@ -4,6 +4,4 @@ appTemplate:
   queryStatusVisibility: false
   rootScreen: null
   version: 2.106.2
-  
- asdf
   markdownLinkBehavior: auto
