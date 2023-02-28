@@ -6,7 +6,7 @@ template:
     - heightType: fixed
     - showBorder: true
     - data: ''
-    - showDropShadow: true
+    - showDropShadow: false
     - scroll: true
     - formDataKey: '{{ self.id }}'
     - style:
