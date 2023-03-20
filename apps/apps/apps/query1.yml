@@ -2,7 +2,7 @@ id: query1
 type: datasource
 subtype: RESTQuery
 resourceName: 509115aa-35ba-4369-b44a-c9a54deac8d6
-resourceDisplayName: '[sample] restapi'
+resourceDisplayName: '[sample] rest'
 template:
   queryRefreshTime: ''
   queryDisabledMessage: ''
