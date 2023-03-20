@@ -4,7 +4,7 @@ subtype: RESTQuery
 resourceName: REST-WithoutResource
 template:
   queryRefreshTime: ''
-  body: ''
+  body: '{}'
   queryDisabledMessage: ''
   successMessage: ''
   queryDisabled: ''
