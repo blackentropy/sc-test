@@ -1,0 +1,42 @@
+databaseName: 97eea04f9676640f5dec57cd31ab0e44a0785649fb04c4b6f782a7ee1880
+databasePassword: ''
+databaseUsername: 1877935e3adbcd198b7bb72c6a03d92e36feee7bb70eb0ebc4bac73b612c
+dynamicallyQueryable: false
+editPrivilege: false
+environment: production
+host: retoolmanageddatabase-2.cf9tgknmnmwb.us-east-2.rds.amazonaws.com
+options:
+  amazon_secret_access_key: ''
+  api_key: ''
+  application_key: ''
+  athena_secret_access_key: ''
+  auth0_access_token: ''
+  auth0_clientSecret: ''
+  aws_secret_access_key: ''
+  basic_password: ''
+  ca_cert: ''
+  client_cert: ''
+  client_cert_and_key: ''
+  client_key: ''
+  connectionString: ''
+  dynamo_secret_access_key: ''
+  googleToken: ''
+  oauth1_consumer_secret: ''
+  oauth2_access_token: ''
+  oauth2_client_secret: ''
+  oauth2_refresh_token: ''
+  privateKey: ''
+  privateKeyPass: ''
+  queryEditorModes:
+    allowGuiMode: true
+    allowSqlMode: true
+  s3_secret_access_key_id: ''
+  serviceAccountKey: ''
+  sshPassword: ''
+  user_auth_key: ''
+  version: SqlQueryUnified
+port: '5432'
+ssl: null
+type: postgresql
+uuid: onboarding_db
+version: 1.0.0
