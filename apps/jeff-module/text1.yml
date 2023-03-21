@@ -1,0 +1,28 @@
+id: text1
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: 👋 **This is a module**
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: moduleContainer
+    row: 1.4
+    col: 1
+    height: 0.6
+    width: 3
+createdAt: 2023-03-21T22:48:36.136Z

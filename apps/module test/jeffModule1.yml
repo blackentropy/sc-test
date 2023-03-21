@@ -1,0 +1,19 @@
+id: jeffModule1
+type: widget
+subtype: GlobalWidget
+template:
+  ordered:
+    - showFetchingIndicator: boolean
+    - heightType: auto
+    - name: jeff-module
+    - pageUuid: 7ea4cab6-c83a-11ed-a9d0-b3ac58d4c23c
+    - childNamespace: jeffModule1
+style:
+  ordered: []
+position2:
+  position2:
+    row: 5
+    col: 9
+    height: 2.4
+    width: 3
+createdAt: 2023-03-21T22:49:28.680Z
