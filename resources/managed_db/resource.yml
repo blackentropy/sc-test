@@ -12,7 +12,6 @@ options:
   athena_secret_access_key: ''
   auth0_access_token: ''
   auth0_clientSecret: ''
-  authentication: user_password
   aws_secret_access_key: ''
   basic_password: ''
   ca_cert: ''
@@ -36,7 +35,7 @@ options:
   sshPassword: ''
   user_auth_key: ''
   version: SqlQueryUnified
-port: '5431'
+port: '5432'
 ssl: null
 type: postgresql
 uuid: managed_db
