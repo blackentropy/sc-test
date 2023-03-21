@@ -21,7 +21,7 @@ template:
     - showFailureToaster: true
     - paginationEnabled: false
     - query: >-
-        https://jsonplaceholder.typicode.com/photos?albumId={{albums_listbox.selectedItem.id}}
+        https://jsonplaceholder.typicode.com/photo?albumId={{albums_listbox.selectedItem.id}}
     - playgroundQueryUuid: ''
     - playgroundQueryId: 0
     - error: null

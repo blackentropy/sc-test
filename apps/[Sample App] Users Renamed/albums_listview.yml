@@ -4,6 +4,7 @@ subtype: ListViewWidget
 template:
   ordered:
     - heightType: fixed
+    - layoutType: list
     - showBorder: false
     - data: ''
     - showDropShadow: false
@@ -11,11 +12,13 @@ template:
     - formDataKey: '{{ self.id }}'
     - style:
         ordered: []
+    - itemWidth: ''
     - dynamicHeightsEnabled: true
     - numColumns: '1'
     - itemHeight: '2'
     - overflowType: scroll
     - instances: '{{ album_pictures.data.length}}'
+    - direction: vertical
 style:
   ordered: []
 position2:
