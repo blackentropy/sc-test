@@ -1,0 +1,59 @@
+id: name_search_input
+type: widget
+subtype: TextInputWidget2
+template:
+  ordered:
+    - spellCheck: false
+    - readOnly: false
+    - iconAfter: ''
+    - showCharacterCount: false
+    - autoComplete: false
+    - maxLength: null
+    - hidden: null
+    - customValidation: ''
+    - patternType: ''
+    - hideValidationMessage: false
+    - textBefore: ''
+    - validationMessage: ''
+    - textAfter: ''
+    - showInEditor: null
+    - showClear: true
+    - pattern: ''
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: ''
+    - style:
+        ordered: []
+    - labelCaption: Logic in the filter_users transformer
+    - labelWidth: '33'
+    - autoFill: ''
+    - placeholder: Search here...
+    - _disclosedFields:
+        array: []
+    - label: Search by name
+    - _validate: false
+    - labelWidthUnit: '%'
+    - invalid: false
+    - iconBefore: search
+    - minLength: null
+    - inputTooltip: ''
+    - events:
+        ordered: []
+    - autoCapitalize: none
+    - loading: false
+    - disabled: ''
+    - labelPosition: top
+    - labelWrap: true
+    - maintainSpaceWhenHidden: null
+    - required: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer1
+    subcontainer: 3bda6
+    height: 2
+    width: 6
+tabIndex: 5
+createdAt: 2020-11-10T02:28:24.496Z

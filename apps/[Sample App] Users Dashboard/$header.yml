@@ -1,0 +1,17 @@
+id: $header
+type: frame
+subtype: Frame
+template:
+  ordered:
+    - type: header
+    - sticky: true
+    - isHiddenOnDesktop: false
+    - isHiddenOnMobile: true
+    - style:
+        ordered:
+          - primary-background: ''
+          - primary-foreground: ''
+          - primary-surface: '{{ theme.primary }}'
+style:
+  ordered: []
+createdAt: 2022-12-14T22:48:56.607Z

@@ -1,0 +1,29 @@
+id: text40
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: ''
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: detail_tab_container
+    subcontainer: c23b1
+    row: 13
+    col: 5
+    height: 0.6
+    width: 7
+createdAt: 2022-12-14T21:42:33.337Z

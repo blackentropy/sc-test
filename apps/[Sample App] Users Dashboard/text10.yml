@@ -1,0 +1,28 @@
+id: text10
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: fixed
+    - horizontalAlign: left
+    - hidden: null
+    - imageWidth: fit
+    - showInEditor: null
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: <img src="{{album_pictures.data[i].url}}" width="100"/>
+    - style:
+        ordered: []
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: hidden
+    - maintainSpaceWhenHidden: null
+style:
+  ordered: []
+position2:
+  position2:
+    container: albums_listview
+    height: 1.7999999999999998
+    width: 4
+createdAt: 2022-12-14T20:49:17.268Z

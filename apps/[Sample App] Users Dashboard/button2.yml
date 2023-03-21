@@ -1,0 +1,36 @@
+id: button2
+type: widget
+subtype: LinkWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - clickable: false
+    - iconAfter: ''
+    - hidden: false
+    - text: Refresh data
+    - showUnderline: never
+    - showInEditor: false
+    - tooltipText: ''
+    - style:
+        ordered: []
+    - allowWrap: false
+    - _disclosedFields:
+        array: []
+    - iconBefore: bold/interface-arrows-turn-backward-alternate
+    - events:
+        ordered: []
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: detail_tab_container
+    subcontainer: bb8b4
+    row: 10.200000000000001
+    height: 1
+    width: 12
+tabIndex: 18
+createdAt: 2020-11-10T02:28:24.498Z

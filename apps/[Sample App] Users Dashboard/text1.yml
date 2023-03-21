@@ -1,0 +1,29 @@
+id: text1
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: fixed
+    - horizontalAlign: left
+    - hidden: null
+    - imageWidth: fit
+    - showInEditor: null
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: <h3> User dashboard</h3>
+    - style:
+        ordered: []
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: null
+style:
+  ordered: []
+position2:
+  position2:
+    subcontainer: header
+    height: 1.2
+    width: 3
+tabIndex: 3
+createdAt: 2020-11-10T02:28:24.496Z

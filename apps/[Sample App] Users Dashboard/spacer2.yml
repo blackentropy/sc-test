@@ -1,0 +1,18 @@
+id: spacer2
+type: widget
+subtype: SpacerWidget
+template:
+  ordered:
+    - hidden: false
+    - maintainSpaceWhenHidden: false
+    - showInEditor: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: detail_tab_container
+    subcontainer: bb8b4
+    row: 9.6
+    height: 0.6
+    width: 12
+createdAt: 2022-12-14T21:19:58.121Z

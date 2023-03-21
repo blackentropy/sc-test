@@ -1,0 +1,29 @@
+id: text14
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: '{{ table1.selectedRow.data.address.street}}'
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: detail_tab_container
+    subcontainer: bb8b4
+    row: 4.199999999999999
+    col: 4
+    height: 0.6
+    width: 8
+createdAt: 2022-12-14T21:15:12.460Z

@@ -1,0 +1,32 @@
+id: text41
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: fixed
+    - horizontalAlign: left
+    - hidden: null
+    - imageWidth: fit
+    - showInEditor: null
+    - verticalAlign: top
+    - tooltipText: ''
+    - value: '{{ album_pictures.data[i].url}}'
+    - style:
+        ordered:
+          - color: rgba(38, 38, 38, 0.48)
+          - links: rgba(179, 179, 179, 1)
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: hidden
+    - maintainSpaceWhenHidden: null
+style:
+  ordered: []
+position2:
+  position2:
+    container: albums_listview
+    row: 1
+    col: 4
+    height: 0.6
+    width: 8
+createdAt: 2022-12-14T22:24:11.386Z

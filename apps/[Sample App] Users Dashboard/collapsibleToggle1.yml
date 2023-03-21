@@ -1,0 +1,45 @@
+id: collapsibleToggle1
+type: widget
+subtype: ToggleButtonWidget
+template:
+  ordered:
+    - horizontalAlign: right
+    - iconPosition: replace
+    - hidden: false
+    - text: '{{ self.value ? ''Hide'' : ''Show'' }}'
+    - showInEditor: false
+    - tooltipText: ''
+    - value: 'true'
+    - style:
+        ordered:
+          - border: rgba(0, 0, 0, 0.11)
+    - iconForFalse: bold/interface-arrows-button-down
+    - _disclosedFields:
+        array: []
+    - styleVariant: outline
+    - events:
+        - ordered:
+            - params:
+                ordered:
+                  - showBody: '{{ self.value }}'
+            - event: change
+            - method: setShowBody
+            - pluginId: collapsibleContainer1
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - iconForTrue: bold/interface-arrows-button-up
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer1
+    rowGroup: header
+    col: 9
+    height: 0.8
+    width: 3
+createdAt: 2022-12-14T20:41:20.635Z
