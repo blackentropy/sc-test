@@ -1,0 +1,13 @@
+id: $main
+type: frame
+subtype: Frame
+template:
+  ordered:
+    - type: main
+    - sticky: false
+    - style:
+        ordered:
+          - canvas: ''
+style:
+  ordered: []
+createdAt: 2022-12-14T20:35:25.384Z

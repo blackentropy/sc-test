@@ -1,0 +1,88 @@
+id: detail_tab_container
+type: widget
+subtype: ContainerWidget2
+template:
+  ordered:
+    - _disabledByIndex:
+        - ''
+        - ''
+        - ''
+    - heightType: fixed
+    - currentViewKey: '{{ self.viewKeys[0] }}'
+    - iconByIndex:
+        array: []
+    - clickable: false
+    - _iconByIndex:
+        - bold/interface-user-square-alternate
+        - bold/interface-edit-write-2
+        - bold/entertainment-music-note-2
+    - hidden: false
+    - showHeader: true
+    - hoistFetching: false
+    - views:
+        array: []
+    - showInEditor: false
+    - tooltipText: ''
+    - style:
+        ordered:
+          - border: rgba(229, 229, 229, 1)
+    - hiddenByIndex:
+        array: []
+    - _hiddenByIndex:
+        - ''
+        - ''
+        - ''
+    - _disclosedFields:
+        array: []
+    - currentViewIndex: null
+    - _hasMigratedNestedItems: true
+    - transition: none
+    - itemMode: static
+    - _tooltipByIndex:
+        - ''
+        - ''
+        - ''
+    - tooltipByIndex:
+        array: []
+    - showFooter: true
+    - _viewKeys:
+        - About
+        - Posts
+        - Albums
+    - events:
+        ordered: []
+    - _ids:
+        - bb8b4
+        - af6c8
+        - c23b1
+    - viewKeys:
+        array: []
+    - iconPositionByIndex:
+        array: []
+    - _iconPositionByIndex:
+        - left
+        - left
+        - left
+    - hovered: false
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - _labels:
+        - ''
+        - ''
+        - ''
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    row: 2.7755575615628914e-16
+    col: 7
+    height: 16.999999999999996
+    width: 5
+createdAt: 2022-12-14T20:45:25.879Z

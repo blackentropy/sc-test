@@ -1,0 +1,205 @@
+id: user_posts_table
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
+    - normalizedData: null
+    - rowHeight: standard
+    - actionButtonType: runQuery
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered: []
+    - columnWidths:
+        - object:
+            id: id
+            value: 53
+    - showSummaryFooter: false
+    - actionButtonDisabled: ''
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - userId: ''
+          - id: ''
+          - title: ''
+          - body: ''
+          - Title: blue
+          - Description: green
+          - Sales: orange
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered: []
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - userId: false
+          - id: true
+          - title: true
+          - body: true
+          - Title: true
+          - Description: true
+          - Sales: true
+    - actionButtonUrl: ''
+    - _columnSummaryTypes:
+        ordered: []
+    - actionButtonNewWindow: false
+    - _columnsWithLegacyBackgroundColor:
+        set:
+          - Description
+          - Sales
+          - Title
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: ''
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - userId: false
+          - id: true
+          - title: true
+          - body: true
+          - Title: true
+          - Description: true
+          - Sales: true
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: false
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: true
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ user_posts.data}}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered: []
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: true
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - actionButtonInternalUrlPath: ''
+    - showRefreshButton: true
+    - pageSize: 9
+    - useDynamicColumnSettings: false
+    - style:
+        ordered:
+          - border: rgb(229, 229, 229)
+          - headerBackground: rgba(255, 255, 255, 1)
+    - selectedColumn: null
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered: []
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: false
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered: []
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - doubleClickToEdit: false
+    - overflowType: scroll
+    - _reverseSortedDisplayedDataIndices: null
+    - showTableBorder: false
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - Title
+        - Sales
+        - Description
+        - userId
+        - id
+        - title
+        - body
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns:
+        - Title
+        - Sales
+        - Description
+        - userId
+        - id
+        - title
+        - body
+    - actionButtonInternalUrlHashParams: ''
+    - actionButtonInternalUrlQuery: ''
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: detail_tab_container
+    subcontainer: af6c8
+    height: 15.200000000000001
+    width: 12
+createdAt: 2022-12-14T20:48:50.726Z

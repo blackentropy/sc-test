@@ -1,0 +1,33 @@
+id: text8
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: right
+    - hidden: null
+    - imageWidth: fit
+    - showInEditor: null
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: Note this page uses fake data from https://jsonplaceholder.typicode.com/
+    - style:
+        ordered:
+          - color: rgba(255, 255, 255, 0.61)
+          - background: ''
+          - links: '#CEE6FA'
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: null
+style:
+  ordered: []
+position2:
+  position2:
+    subcontainer: header
+    col: 7
+    height: 0.6
+    width: 5
+tabIndex: 20
+createdAt: 2020-11-10T02:28:24.498Z

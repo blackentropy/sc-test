@@ -1,0 +1,29 @@
+id: text34
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: <a>{{ table1.selectedRow.data.website}}</a>
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: detail_tab_container
+    subcontainer: bb8b4
+    row: 1.2000000000000002
+    col: 4
+    height: 0.6
+    width: 8
+createdAt: 2022-12-14T21:24:00.852Z

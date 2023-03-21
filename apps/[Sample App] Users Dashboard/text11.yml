@@ -1,0 +1,33 @@
+id: text11
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: fixed
+    - horizontalAlign: left
+    - hidden: null
+    - imageWidth: fit
+    - showInEditor: null
+    - verticalAlign: bottom
+    - tooltipText: ''
+    - value: '{{ album_pictures.data[i].title}}'
+    - style:
+        ordered:
+          - color: ''
+          - background: ''
+          - links: ''
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: hidden
+    - maintainSpaceWhenHidden: null
+style:
+  ordered: []
+position2:
+  position2:
+    container: albums_listview
+    row: 0.40000000000000013
+    col: 4
+    height: 0.6
+    width: 8
+createdAt: 2022-12-14T20:49:17.485Z

@@ -1,0 +1,250 @@
+id: table1
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: auto
+    - normalizedData: null
+    - rowHeight: standard
+    - actionButtonType: runQuery
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered:
+          - email:
+              ordered: []
+          - website:
+              ordered: []
+    - columnWidths:
+        - object:
+            id: Title
+            value: 250
+        - object:
+            id: Sales
+            value: 150
+        - object:
+            id: id
+            value: 70
+    - showSummaryFooter: false
+    - actionButtonDisabled: ''
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - a: ''
+          - name: ''
+          - Sales: orange
+          - phone: ''
+          - address: ''
+          - username: ''
+          - Title: blue
+          - website: ''
+          - id: ''
+          - email: ''
+          - Description: green
+          - company: ''
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered:
+          - email: MarkdownDataCell
+          - website: MarkdownDataCell
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - a: true
+          - name: true
+          - Sales: true
+          - phone: true
+          - address: false
+          - username: true
+          - Title: true
+          - website: true
+          - id: true
+          - email: true
+          - Description: true
+          - company: false
+    - actionButtonUrl: ''
+    - _columnSummaryTypes:
+        ordered:
+          - email: ''
+          - website: ''
+    - actionButtonNewWindow: false
+    - _columnsWithLegacyBackgroundColor:
+        set:
+          - Description
+          - Sales
+          - Title
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: ''
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - a: true
+          - name: true
+          - Sales: true
+          - phone: true
+          - address: false
+          - username: true
+          - Title: true
+          - website: true
+          - id: true
+          - email: true
+          - Description: true
+          - company: false
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: false
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: true
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ filter_users.value }}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered:
+          - email: left
+          - website: left
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: true
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - actionButtonInternalUrlPath: ''
+    - showRefreshButton: true
+    - pageSize: '10'
+    - useDynamicColumnSettings: false
+    - style:
+        ordered:
+          - headerBackground: rgba(255, 255, 255, 1)
+          - border: rgb(229, 229, 229)
+    - selectedColumn: null
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered:
+          - email: ''
+          - website: ''
+    - checkboxRowSelect: true
+    - _compatibilityMode: false
+    - showColumnBorders: false
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered:
+          - address: false
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered:
+          - website: '[{{ self }}]({{ self }})'
+    - showClearSelection: false
+    - doubleClickToEdit: false
+    - overflowType: scroll
+    - _reverseSortedDisplayedDataIndices: null
+    - showTableBorder: true
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - Title
+        - Sales
+        - Description
+        - a
+        - id
+        - name
+        - username
+        - email
+        - address
+        - phone
+        - website
+        - company
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns:
+        - Title
+        - Sales
+        - Description
+        - a
+        - id
+        - name
+        - username
+        - email
+        - address
+        - phone
+        - website
+        - company
+    - actionButtonInternalUrlHashParams: ''
+    - actionButtonInternalUrlQuery: ''
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 1.8
+    height: 2.0000000000000018
+    width: 7
+tabIndex: 13
+createdAt: 2020-11-10T02:28:24.497Z

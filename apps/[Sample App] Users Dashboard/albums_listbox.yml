@@ -1,0 +1,86 @@
+id: albums_listbox
+type: widget
+subtype: ListboxWidget
+template:
+  ordered:
+    - imageByIndex:
+        array: []
+    - _disabledByIndex: []
+    - showSelectionIndicator: true
+    - _values: []
+    - iconByIndex: bold/entertainment-music-note-1
+    - values: '{{ item.id }}'
+    - _iconByIndex: []
+    - allowDeselect: false
+    - hidden: false
+    - customValidation: ''
+    - data: '{{ user_albums.data }}'
+    - searchMode: fuzzy
+    - hideValidationMessage: false
+    - fallbackTextByIndex:
+        array: []
+    - _fallbackTextByIndex: []
+    - selectedItem: null
+    - validationMessage: ''
+    - automaticItemColors: false
+    - itemAdornmentShape: circle
+    - showInEditor: false
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: '{{ self.values[0] }}'
+    - style:
+        ordered:
+          - border: rgba(209, 209, 209, 0)
+    - hiddenByIndex:
+        array: []
+    - labelCaption: Select an album to view details
+    - labelWidth: '33'
+    - deprecatedLabels:
+        array: []
+    - _hiddenByIndex: []
+    - _captionByIndex: []
+    - _disclosedFields:
+        array: []
+    - itemAdornmentSize: auto
+    - searchTerm: ''
+    - label: Albums owned
+    - _hasMigratedNestedItems: true
+    - captionByIndex: ''
+    - _validate: false
+    - itemMode: dynamic
+    - labelWidthUnit: '%'
+    - invalid: false
+    - selectedIndex: null
+    - _tooltipByIndex: []
+    - _colorByIndex: []
+    - tooltipByIndex:
+        array: []
+    - colorByIndex:
+        array: []
+    - selectedLabel: ''
+    - events:
+        ordered: []
+    - _ids: []
+    - emptyMessage: No options
+    - disabled: false
+    - labelPosition: top
+    - _labels: []
+    - labelWrap: false
+    - disabledValues:
+        array: []
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - _imageByIndex: []
+    - required: false
+    - labels: '{{ item.title }}'
+style:
+  ordered: []
+position2:
+  position2:
+    container: detail_tab_container
+    subcontainer: c23b1
+    height: 13
+    width: 5
+createdAt: 2022-12-14T21:35:49.353Z

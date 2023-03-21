@@ -1,0 +1,109 @@
+id: select1
+type: widget
+subtype: MultiselectWidget2
+template:
+  ordered:
+    - imageByIndex:
+        array: []
+    - _disabledByIndex: []
+    - showSelectionIndicator: true
+    - _values: []
+    - iconByIndex:
+        array: []
+    - values: '{{ item }}'
+    - readOnly: false
+    - iconAfter: ''
+    - _iconByIndex: []
+    - wrapTags: true
+    - overlayMinWidth: null
+    - selectedIndexes:
+        array: []
+    - selectedItems:
+        array: []
+    - inputValue: ''
+    - hidden: false
+    - customValidation: ''
+    - data: '["Unknown", "Active", "Inactive", "Any"]'
+    - maxCount: null
+    - searchMode: fuzzy
+    - hideValidationMessage: false
+    - fallbackTextByIndex:
+        array: []
+    - textBefore: ''
+    - _fallbackTextByIndex: []
+    - minLines: null
+    - validationMessage: ''
+    - automaticItemColors: false
+    - itemAdornmentShape: circle
+    - textAfter: ''
+    - showInEditor: false
+    - showClear: true
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: '{{ self.values }}'
+    - style:
+        ordered: []
+    - hiddenByIndex:
+        array: []
+    - labelCaption: Just an example! This doesn't work.
+    - labelWidth: '33'
+    - deprecatedLabels:
+        array: []
+    - _hiddenByIndex: []
+    - placeholder: Select options
+    - _captionByIndex: []
+    - _disclosedFields:
+        array: []
+    - itemAdornmentSize: auto
+    - label: Filter by status
+    - _hasMigratedNestedItems: true
+    - captionByIndex:
+        array: []
+    - _validate: false
+    - itemMode: dynamic
+    - labelWidthUnit: '%'
+    - allowCustomValue: false
+    - invalid: false
+    - _tooltipByIndex: []
+    - _colorByIndex: []
+    - tooltipByIndex:
+        array: []
+    - iconBefore: ''
+    - colorByIndex:
+        array: []
+    - events:
+        ordered: []
+    - _ids: []
+    - emptyMessage: No options
+    - selectedLabels:
+        array: []
+    - overlayMaxHeight: 250
+    - maxLines: null
+    - loading: false
+    - disabled: false
+    - labelPosition: top
+    - minCount: null
+    - _labels: []
+    - labelWrap: true
+    - disabledValues:
+        array: []
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - _imageByIndex: []
+    - required: false
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer1
+    subcontainer: 3bda6
+    row: -1.1102230246251565e-16
+    col: 6
+    height: 2
+    width: 6
+tabIndex: 7
+createdAt: 2020-11-10T02:28:24.496Z

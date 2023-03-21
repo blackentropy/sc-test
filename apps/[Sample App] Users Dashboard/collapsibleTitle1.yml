@@ -1,0 +1,27 @@
+id: collapsibleTitle1
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: fixed
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: '**Apply filters**'
+    - _disclosedFields:
+        array: []
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: collapsibleContainer1
+    rowGroup: header
+    height: 0.8
+    width: 9
+createdAt: 2022-12-14T20:41:20.552Z
