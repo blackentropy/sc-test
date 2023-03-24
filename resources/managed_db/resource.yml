@@ -36,7 +36,7 @@ options:
   sshPassword: ''
   user_auth_key: ''
   version: SqlQueryUnified
-port: '5432'
+port: '5431'
 ssl: null
 type: postgresql
 uuid: managed_db
