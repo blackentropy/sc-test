@@ -9,7 +9,7 @@ template:
     - submitTargetId: null
     - hidden: false
     - text: Button
-    - showInEditor: false
+    - showInEditor: true
     - tooltipText: ''
     - styleVariant: solid
     - submit: false
