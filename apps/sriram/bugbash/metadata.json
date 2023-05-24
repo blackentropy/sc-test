@@ -1,0 +1,12 @@
+{
+  "toolscriptVersion": "0.0.1",
+  "version": "43.0.9",
+  "pageUuid": "f0745a12-ca65-11ed-82ff-539530aecbdf",
+  "appTemplate": {
+    "queryStatusVisibility": false,
+    "rootScreen": null,
+    "version": "2.123.0",
+    "markdownLinkBehavior": "auto",
+    "experimentalDataTabEnabled": true
+  }
+}

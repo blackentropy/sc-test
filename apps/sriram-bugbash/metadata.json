@@ -1,0 +1,11 @@
+{
+  "toolscriptVersion": "0.0.1",
+  "version": "43.0.9",
+  "pageUuid": "b6ef305a-ba11-11ed-b22c-a3fb25868d34",
+  "appTemplate": {
+    "queryStatusVisibility": false,
+    "rootScreen": null,
+    "version": "2.123.0",
+    "markdownLinkBehavior": "auto"
+  }
+}
