@@ -1,0 +1,4 @@
+
+**/*.rsx linguist-language=javascript
+**/positions.json linguist-generated=true
+**/.defaults.json linguist-generated=true
