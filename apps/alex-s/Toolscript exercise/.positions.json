@@ -1,0 +1,9 @@
+{
+  "image1": { "row": 2, "col": 4, "height": 3, "width": 2 },
+  "image2": { "row": 2, "col": 2, "height": 3, "width": 2 },
+  "image3": { "row": 2, "height": 3, "width": 2 },
+  "jsonExplorer1": { "row": 0.4, "col": 7, "height": 18.4, "width": 5 },
+  "select1": { "row": 0.4, "height": 1, "width": 4 },
+  "text1": { "row": 0.6, "col": 5, "height": 0.6, "width": 2 },
+  "text2": { "row": 7.8, "col": 4, "height": 0.6 }
+}
