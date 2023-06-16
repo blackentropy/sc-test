@@ -24,4 +24,9 @@
     height: 0.6,
     width: 6,
   },
+  text3: {
+    row: 8.2,
+    col: 3,
+    height: 0.6,
+  },
 }
