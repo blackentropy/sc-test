@@ -11,11 +11,17 @@
       <Header>
         <Text
           id="containerTitle1"
-          value="#### Container title"
+          value="#### Hello Container"
           verticalAlign="center"
         />
       </Header>
-      <View id="1f7fe" viewKey="View 1" />
+      <View id="1f7fe" viewKey="View 1">
+        <Text
+          id="text1"
+          value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+          verticalAlign="center"
+        />
+      </View>
     </Container>
   </Frame>
 </App>
