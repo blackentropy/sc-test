@@ -28,5 +28,10 @@
         />
       </View>
     </Container>
+    <Text
+      id="text3"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
   </Frame>
 </App>
